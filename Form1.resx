@@ -118,6 +118,56 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="checkBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACwSURBVFhH7ddLDgIhDAZgHD2BxhchvMI9WKmXV6+kbZXJ
+        mLjlZ9M/IQzp4pvApjXgrGitP5/4TLT4B4aEcRNCOMUYb+2Milx5KWVP+D2l9KL9KhXAc8w4wQ/GebfW
+        7qTa+Un+4U9aR6kOxrteveKKK6644l2iuOKKQ3BplUfh0iAOxZ1z29a3I3GOAAReGp5zPkgFgC8z8djk
+        vT9/z1B8GX4S6Ow2p9a6oa3rxPIbY95DkHyicivnYQAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="checkBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS

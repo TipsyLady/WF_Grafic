@@ -32,6 +32,7 @@ namespace WF_Grafic
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel_Paint = new System.Windows.Forms.Panel();
             this.groupBox_Instr = new System.Windows.Forms.GroupBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -50,7 +51,6 @@ namespace WF_Grafic
             this.label1 = new System.Windows.Forms.Label();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.groupBox_Instr.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -88,9 +88,21 @@ namespace WF_Grafic
             this.groupBox_Instr.TabStop = false;
             this.groupBox_Instr.Text = "Панель инструментов";
             // 
+            // checkBox5
+            // 
+            this.checkBox5.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox5.Image = ((System.Drawing.Image)(resources.GetObject("checkBox5.Image")));
+            this.checkBox5.Location = new System.Drawing.Point(377, 78);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(48, 50);
+            this.checkBox5.TabIndex = 11;
+            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
+            // 
             // checkBox4
             // 
             this.checkBox4.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox4.Image = ((System.Drawing.Image)(resources.GetObject("checkBox4.Image")));
             this.checkBox4.Location = new System.Drawing.Point(647, 26);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(64, 50);
@@ -267,16 +279,6 @@ namespace WF_Grafic
             this.trackBar1.TabIndex = 1;
             this.trackBar1.Value = 5;
             // 
-            // checkBox5
-            // 
-            this.checkBox5.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox5.Location = new System.Drawing.Point(377, 78);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(48, 50);
-            this.checkBox5.TabIndex = 11;
-            this.checkBox5.UseVisualStyleBackColor = true;
-            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -289,7 +291,7 @@ namespace WF_Grafic
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Графический редактор";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox_Instr.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
